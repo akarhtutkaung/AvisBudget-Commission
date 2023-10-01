@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#1C1C21"
+        tools:context=".MainActivity">
+        <LinearLayout
+            android:id="@+id/UpdateDate"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Updated on 9/30/2023"
+                android:textSize="10dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="10dp"
+                />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1E1E24"
+            android:padding="16dp"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-- ABG Commission --"
+                android:layout_centerHorizontal="true"
+                android:textColor="#CFCCCC"
+                android:textSize="25sp"
+                android:layout_marginTop="50dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/subtitleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleTextView"
+                android:layout_centerHorizontal="true"
+                android:text="(SEA)"
+                android:textColor="#CFCCCC"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/coverageEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subtitleTextView"
+                android:layout_marginTop="80dp"
+                android:hint="Coverage $"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#A9A9A9"
+                android:textColorHint="#A9A9A9" />
+
+            <EditText
+                android:id="@+id/upsellsEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/coverageEditText"
+                android:layout_marginTop="30dp"
+                android:hint="Upsells and Walkups $"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#A9A9A9"
+                android:textColorHint="#A9A9A9" />
+
+            <EditText
+                android:id="@+id/accGSOEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/upsellsEditText"
+                android:layout_marginTop="30dp"
+                android:hint="Acc and GSO $"
+                android:inputType="numberDecimal"
+                android:textAlignment="center"
+                android:textColor="#A9A9A9"
+                android:textColorHint="#A9A9A9" />
+
+            <Button
+                android:id="@+id/calculateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accGSOEditText"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:text="Calculate Payout" />
+
+            <TextView
+                android:id="@+id/resultTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/calculateButton"
+                android:layout_marginTop="26dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#A9A9A9"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/resultDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/resultTotal"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#A9A9A9"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
