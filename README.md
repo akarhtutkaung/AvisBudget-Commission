@@ -13,9 +13,11 @@ This application is a commission payout calculator designed for personal use and
 - Instantly view commission payouts based on the provided data.
 - User-friendly interface for easy navigation and data entry.
 
-## Upcoming Features
-
-- **Expanding Support**: I am actively working to expand support for different Avis Budget Group locations, making the calculator accessible to a wider audience.
+## Screenshots
+<img src="Assets/Screenshots/0.jpg" height="400" />
+<img src="Assets/Screenshots/1.jpg" height="400" />
+<img src="Assets/Screenshots/2.jpg" height="400" />
+<img src="Assets/Screenshots/3.jpg" height="400" />
 
 ## Getting Started
 
@@ -57,3 +59,7 @@ This Commission Payout Calculator is available under the [MIT License](LICENSE).
 ## Contact
 
 If you have any questions, suggestions, or need assistance, feel free to contact me at [akarthut99@gmail.com](mailto:akarthut99@gmail.com).
+
+## Upcoming Features
+
+- **Expanding Support**: I am actively working to expand support for different Avis Budget Group locations, making the calculator accessible to a wider audience.
