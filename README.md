@@ -1,6 +1,6 @@
 # AvisBudget - Commission Payout
 
-Download: [ABG_Commission.apk](ABG_Commission.apk)
+Released/Download: [click here](https://github.com/akarhtutkaung/AvisBudget-Commission/releases/tag/v1.0.0)
 
 ## Overview
 
