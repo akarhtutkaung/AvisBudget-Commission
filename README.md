@@ -14,10 +14,7 @@ This application is a commission payout calculator designed for personal use and
 - User-friendly interface for easy navigation and data entry.
 
 ## Screenshots
-<img src="Assets/Screenshots/0.jpg" height="400" />
-<img src="Assets/Screenshots/1.jpg" height="400" />
-<img src="Assets/Screenshots/2.jpg" height="400" />
-<img src="Assets/Screenshots/3.jpg" height="400" />
+<img src="Assets/Screenshots/0.jpg" height="400" /> <img src="Assets/Screenshots/1.jpg" height="400" /> <img src="Assets/Screenshots/2.jpg" height="400" /> <img src="Assets/Screenshots/3.jpg" height="400" />
 
 ## Getting Started
 
